@@ -1,4 +1,8 @@
-package com.yanbit.observer;
+package com.yanbit.observer.observer;
+
+import com.yanbit.observer.mode.DisplayElement;
+import com.yanbit.observer.mode.Observer;
+import com.yanbit.observer.subject.WeatherData;
 
 public class ForecastDisplay implements Observer, DisplayElement {
   private float currentPressure = 29.92f;

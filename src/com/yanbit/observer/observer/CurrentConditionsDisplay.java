@@ -1,5 +1,9 @@
-package com.yanbit.observer;
-	
+package com.yanbit.observer.observer;
+
+import com.yanbit.observer.mode.DisplayElement;
+import com.yanbit.observer.mode.Observer;
+import com.yanbit.observer.mode.Subject;
+
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
 	private float temperature;
 	private float humidity;

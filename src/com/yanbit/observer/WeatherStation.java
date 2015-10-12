@@ -1,13 +1,16 @@
 package com.yanbit.observer;
 
-import java.util.*;
+import com.yanbit.observer.observer.CurrentConditionsDisplay;
+import com.yanbit.observer.observer.ForecastDisplay;
+import com.yanbit.observer.observer.StatisticsDisplay;
+import com.yanbit.observer.subject.WeatherData;
 
 public class WeatherStation {
 
 	public static void main(String[] args) {
 		WeatherData weatherData = new WeatherData();
 	
-		CurrentConditionsDisplay currentDisplay = 
+		CurrentConditionsDisplay currentDisplay =
 			new CurrentConditionsDisplay(weatherData);
 		StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
 		ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);

@@ -1,4 +1,8 @@
-package com.yanbit.observer;
+package com.yanbit.observer.observer;
+
+import com.yanbit.observer.mode.DisplayElement;
+import com.yanbit.observer.mode.Observer;
+import com.yanbit.observer.subject.WeatherData;
 
 public class StatisticsDisplay implements Observer, DisplayElement {
 	private float maxTemp = 0.0f;

@@ -1,4 +1,4 @@
-package com.yanbit.observer;
+package com.yanbit.observer.mode;
 
 public interface Subject {
 	public void registerObserver(Observer o);

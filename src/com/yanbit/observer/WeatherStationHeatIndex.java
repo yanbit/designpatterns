@@ -1,5 +1,11 @@
 package com.yanbit.observer;
 
+import com.yanbit.observer.observer.CurrentConditionsDisplay;
+import com.yanbit.observer.observer.ForecastDisplay;
+import com.yanbit.observer.observer.HeatIndexDisplay;
+import com.yanbit.observer.observer.StatisticsDisplay;
+import com.yanbit.observer.subject.WeatherData;
+
 public class WeatherStationHeatIndex {
 
 	public static void main(String[] args) {

@@ -1,4 +1,7 @@
-package com.yanbit.observer;
+package com.yanbit.observer.subject;
+
+import com.yanbit.observer.mode.Observer;
+import com.yanbit.observer.mode.Subject;
 
 import java.util.ArrayList;
 
